@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    // function show({a, b}) {
+    //     console.log(a, b);
+    // }
+    // show({a: 1, b: 2})//1 2
+    // show({a: 1})//1 undefined
+
+
+    //设置缺省值
+    function show({a, b = '无值'}) {
+        console.log(a, b);
+    }
+
+    show({
+        a: 1
+    })//1 "无值"
+
+</script>
+</body>
+</html>

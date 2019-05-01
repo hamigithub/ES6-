@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    //箭头函数不能当构造函数
+
+    // //正常的构造函数
+    // function Show() {
+    //     this.name = 'hami';
+    //     this.age = 18;
+    // }
+    // let s = new Show();
+    // console.log(s.name);//hami
+
+
+    //箭头函数的构造函数
+    let Show = () => {
+        this.name = 'hami';
+        this.age = 18;
+    };
+
+    let s = new Show();
+    console.log(s.name, s.age);//Show is not a constructor
+
+    // ajax(url,(res)=>{
+    //     this
+    // })
+
+</script>
+</body>
+</html>

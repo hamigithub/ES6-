@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<ul id="ul1">
+    <li>
+        <span>这是新闻的标题</span>
+        <span>阅读人数：10</span>
+        <a href="javascript:;">查看更多</a>
+    </li>
+</ul>
+
+<script>
+    let data = [
+        {title: '电信业务不良名单的最新相关信息', read: 170},
+        {title: '五一收费公路免费的最新相关信息', read: 150},
+        {title: '两名科考队员遇难的最新相关信息', read: 130},
+        {title: '沈腾谈电影盗版的最新相关信息', read: 120},
+        {title: '贝卢斯科尼被送医的最新相关信息', read: 900}
+    ];
+    // window.onload = function () {
+    //     let oUl = document.querySelector('#ul1');
+    //     for (let i = 0; i < data.length; i++) {
+    //         let oLi = document.createElement('li');
+    //         oLi.innerHTML = '<span>这是新闻的标题</span>'
+    //             + '<span>阅读人数：10</span>'
+    //             + '<a href="javascript:;">查看更多</a>';
+    //         oUl.appendChild(oLi);
+    //     }
+    // }
+
+    //字符串模板
+    window.onload = function () {
+        let oUl = document.querySelector('#ul1');
+        for (let i = 0; i < data.length; i++) {
+            let oLi = document.createElement('li');
+            oLi.innerHTML = `<span>${data[i].title}</span>
+                            <span>${data[i].read}</span>
+                            <a href="javascript:;">查看更多</a>`;
+            oUl.appendChild(oLi);
+        }
+    }
+</script>
+</body>
+</html>

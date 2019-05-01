@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+<h1>扩展运算符，rest运算符——"..." 也叫剩余运算符</h1>
+<script>
+
+
+    //当剩余参数来用的时候，必须放在最后一个参数位置
+    function show(a, b, ...c) {
+        console.log(a, b);//1 2
+        console.log(c);//(3) [3, 4, 5]
+    }
+
+    show(1, 2, 3, 4, 5)
+</script>
+</body>
+</html>

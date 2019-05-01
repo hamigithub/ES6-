@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+<script>
+    // var arr = [];
+    // for (var i = 0; i < 10; i++) {
+    //     arr[i] = function () {
+    //         console.log(i);
+    //     }
+    // }
+    // arr[5]();//这里会console出一个 10；
+
+    let arr = [];
+    for (let i = 0; i < 10; i++) {
+        arr[i] = function () {
+            console.log(i);
+        }
+    }
+    arr[5]();//此时弹出的将是5；
+</script>
+</body>
+</html>

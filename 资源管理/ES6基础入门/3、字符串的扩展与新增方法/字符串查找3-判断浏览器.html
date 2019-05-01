@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+
+<script>
+    if (navigator.userAgent.includes('Chrome')) {
+        alert('是Chrome')
+    } else {
+        alert('不是Chrome')
+    }
+
+
+    // let str = 'apple banana pear';
+    //传统的字符串查找，使用indexOf，但是这个函数返回的是要找的这个字符串的位置
+    // console.log(str.indexOf('apple'));//0
+    // console.log(str.indexOf('banana'));//6
+    //
+    // //传统的判断字符串，如浏览器，URL中的某些内容，都用indexOf来做
+    // if (str.indexOf('banana')!=-1){
+    //     alert(true)
+    // }else {
+    //     alert(false)
+    // }
+
+    // alert(str.includes('banana'));//true
+    //
+    // //但是当在后面加上一些东西，includes依然返回true，这个问题需要使用正则来解决
+    // alert(str.includes('banana2'));//true
+</script>
+</body>
+</html>

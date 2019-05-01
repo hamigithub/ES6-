@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    // let {a, b} = {a: 'apple', b: 'banana'};
+    // console.log(a, b);//apple banana
+
+    let a;
+    ({a} = {a: 'apple', b: 'banana'});
+    console.log(a);//apple
+    //这种写法是会死一户口本的，绝对不要用
+</script>
+</body>
+</html>

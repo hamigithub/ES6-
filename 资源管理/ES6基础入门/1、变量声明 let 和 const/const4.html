@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    // const arr = ['apple', 'banana'];
+    // // arr = [];//不能重新赋值
+    // arr.push('orange');//由于arr是一个数组，在一个引用，所以可以增加项给它
+    // console.log(arr);
+    //
+    // Object.freeze(arr);//完全冻结引用值arr
+    // arr.push('orange');//Cannot add property 3, object is not extensible
+
+    const arr = Object.freeze(['apple', 'banana']);
+    arr.push('orange');//Cannot add property 2, object is not extensible  at Array.push (<anonymous>)
+    console.log(arr);
+</script>
+</body>
+</html>

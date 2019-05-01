@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    //this的指向问题
+    // let json = {
+    //     id: 1,
+    //     show: function () {
+    //         alert(this.id);
+    //     }
+    // };
+    // json.show();//1
+
+    // var id =10;//用var定义一个全局变量，它是属于window，let，const不同
+
+    // let json2 = {
+    //     id: 1,
+    //     show: function () {
+    //         setTimeout(function () {
+    //             alert(this.id)
+    //         }, 2000)
+    //         //这里的setTimeout其实是window执行的，而window的环境里并没有id
+    //     }
+    // };
+    // json2.show();//10
+
+
+    //这里使用箭头函数
+    var id = 10;
+    let json3 = {
+        id: 1,
+        show: function () {
+            setTimeout(() => {
+                alert(this.id)
+            }, 2000);
+        }
+    };
+    json3.show();//1
+
+    //this问题，定义函数的时候所在的对象，不在是运行时所在的对象。
+
+</script>
+</body>
+</html>

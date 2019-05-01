@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+<script>
+    let a = 12;
+
+    function fn() {
+        //TDZ 暂时性死区，这个块级作用域内
+        alert(a);//undefined
+        alert(b);//一样undefined
+        let a = 5;//TDZ 结束
+        let b = 12;
+    }
+
+    fn()
+</script>
+</body>
+</html>

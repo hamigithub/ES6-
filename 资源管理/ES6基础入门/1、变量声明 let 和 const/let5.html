@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+<script>
+    for (let i = 0; i < 3; i++) {
+        let i = 'abc';
+        console.log(i)//成功
+        // for循环，for循环()里面是一个作用域，可以理解为父级作用域
+        // 接着后面的{}里面是另外一个作用域，可以理解为上面的子级作用域
+        // 两个作用域都是独立的，之间或有父子的关系
+    }
+    alert(i)//报错，顶层作用域，并没有声明变量i
+</script>
+</body>
+</html>

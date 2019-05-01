@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let json = {
+        name: 'hami',
+        age: 18,
+        job: '码畜'
+    };
+
+    let {name:n, age:g, job: a} = json;//job:a 冒号后的a是重定义json的属性名
+    console.log(n, g, a)//hami 18 码畜
+
+</script>
+</body>
+</html>

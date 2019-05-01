@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+
+    //[1,2,3,4,5]  ...[1,2,3,4,5] -> 1, 2, 3, 4, 5
+
+    //1,2,3,4,5 -> ...a -> [1,2,3,4,5]
+    //这个就是所谓的重置，rest
+    // function show(...a) {
+    //     console.log(arguments);
+    // }
+
+    //反过来demo
+    function show(a,b,c) {
+        console.log(a, b, c);
+    }
+
+    show(...[1, 9, 8]);//1 9 8
+
+</script>
+</body>
+</html>

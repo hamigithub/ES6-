@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+
+    //[1,2,3,4,5]  ...[1,2,3,4,5] -> 1, 2, 3, 4, 5
+
+    //1,2,3,4,5 -> ...a -> [1,2,3,4,5]
+    //这个就是所谓的重置，rest
+    // function show(...a) {
+    //     console.log(arguments);
+    // }
+
+    // 如果想要将传进来的这个数组排序，
+    //ES5
+    // function show() {
+    //     let a = Array.prototype.slice.call(arguments);
+    //     console.log(a);
+    //     return a.sort();
+    // }
+    //
+    // console.log(show(1, 9, 8, 3, 2));//[1, 2, 3, 8, 9]
+
+    //ES6
+    function show(...a) {
+        return a.sort();
+    }
+    console.log(show(1, 9, 8, 3, 2));//[1, 2, 3, 8, 9]
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+<input type="button" value="aaa">
+<input type="button" value="bbb">
+<input type="button" value="ccc">
+<script>
+    window.onload = function () {
+        // var aInput = document.querySelectorAll('input')
+        // for (var i = 0; i < aInput.length; i++) {
+        //     aInput[i].onclick = function () {
+        //         alert(i);//此处出来的每一个都是3
+        //     }
+        // }
+        var aInput = document.querySelectorAll('input');
+        for (let i = 0; i < aInput.length; i++) {
+            aInput[i].onclick = function () {
+                alert(i);//此处出来的将会是0，1,2
+            }
+        }
+    };
+</script>
+</body>
+</html>

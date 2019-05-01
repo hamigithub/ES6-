@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    //后台传回undefined值的可能也有
+    // let [a, b, c] = ['aa', 'bb',undefined];
+    // console.log(a, b, c)//aa bb undefined
+
+    //我们可以设置一个默认值/缺省值给它
+    // let [a, b, c='暂无'] = ['aa', 'bb',undefined];
+    // console.log(a, b, c)//aa bb undefined
+
+    //但是如果传回来的是一个null，那么null就是有值
+    // let [a, b, c='暂无'] = ['aa', 'bb',null];
+    // console.log(a, b, c)//aa bb null
+
+    //null是有值，是一个空的对象，undefined就是没有
+    //因为有值，所以c的默认值不生效
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    // console.log(top);//top是顶层对象
+    // let top;//此处会报错，用var则不会 Identifier 'top' has already been declared
+    //函数声明，带有一个对象的返回值
+    function getPos() {
+        //xxxxx
+
+        return {
+            left: 10,
+            top: 20
+        }
+    }
+
+    let {left, top: t} = getPos();//将top重定义为变量t
+    console.log(left, t)//
+
+</script>
+</body>
+</html>

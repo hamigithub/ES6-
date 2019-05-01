@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let arr = [1, 2, 3, 4, 5];
+    let arr2 = arr;//这里是浅拷贝，由于数组数据类型是引用类型，内存依然指向同一个
+
+    // 如果需要深度拷贝，在ES5 中是需要使用for来循环处理的，而ES6 的rest运算符则更好地解决了这个问题
+    let arr3 = [...arr];//这样就实现了数组的深度拷贝
+    arr3.push(6);
+    console.log(arr, arr3);//(5) [1, 2, 3, 4, 5] (6) [1, 2, 3, 4, 5, 6]
+    //可以发现这两个数组的引用是不同的
+
+    let arr4 = Array.from(arr);
+    arr4.push(6);
+    console.log(arr, arr4);//(5) [1, 2, 3, 4, 5] (6) [1, 2, 3, 4, 5, 6]
+    //如果...rest运算符无法使用，那么Array.from()也是可以实现数组的深拷贝
+
+
+    //下面是一些比较奇怪的运算结果，可以了解一下
+    let json = {
+        a: 1,
+        b: 2,
+        c: 3
+    };
+
+    let arr5 = Array.from(json);
+    console.log(arr5);//[]
+
+    let str = 'a-b-c';
+    let arr6 = Array.from(str);
+    console.log(arr6);//["a", "-", "b", "-", "c"]
+</script>
+</body>
+</html>

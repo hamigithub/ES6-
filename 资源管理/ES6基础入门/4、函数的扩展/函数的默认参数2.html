@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    // function show(a = 'welcome', b = 'es6') {
+    //     console.log(a, b);
+    // }
+    //
+    // show('欢迎', 'ES6');//欢迎 ES6
+    // show('欢迎');//欢迎 es6 使用了默认值
+    // show('','')//  空的，没有使用默认值
+
+    // function show({x, y}) {
+    //     console.log(x, y)
+    // }
+    //
+    // show({x: 1, y: 2});//1 2 解构赋值传参
+    // show({x: 1});//1 undefined
+
+    // function show({x, y = 0}) {
+    //     console.log(x, y)
+    // }
+    //
+    // show({x: 1});//1 0
+    //
+    // function show2({x, y = 0}) {
+    //     console.log(x, y)
+    // }
+    // show2();//如果不传参进去，则报错Cannot destructure property `x` of 'undefined' or 'null'.
+
+
+    function show2({x = 0, y = 0} = {}) {
+        //此处设置一个空的解构赋值
+        console.log(x, y)
+    }
+    show2();//0 0
+</script>
+</body>
+</html>

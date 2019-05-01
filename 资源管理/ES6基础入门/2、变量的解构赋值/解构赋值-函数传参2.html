@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    //设置缺省值
+    // function show({a='无值', b = '无值'}) {
+    //     console.log(a, b);
+    // }
+    //
+    // //如果不传参，则会报错
+    // show()//Cannot destructure property `a` of 'undefined' or 'null'.
+
+
+    //解决方法，在参数赋值一个空对象即可，这是ES6函数的特性，
+    // 已经不是解构的特性了，后面会讲，相当于函数的参数也可以给默认值/缺省值
+    function show({a = '无值', b = '无值'} = {}) {
+        console.log(a, b);
+    }
+
+    //此处不传参，不会报错
+    show()//无值 无值
+
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    // function show(a, b) {
+    //     console.log(a, b)
+    // }
+    //
+    // show('welcome', 'es6')//welcome es6
+
+    function show(a, b) {
+        console.log(a, b)
+    }
+
+    show('welcome', 'es6');//welcome es6
+    show('welcome', '');//welcome
+
+    // 如果不传第二个参数，是不是应该给个默认值
+    show('welcome');//welcome undefined 如果不传，那么将会打印undefined，没有默认值
+
+    // ES5 的时候，如果需要判断传入的参数是否undefined，并设置默认值，是这样做的
+
+    function show2(a, b) {
+        a = a || 'welcome';
+        b = b || 'hami';//在这里判断b的值
+        console.log(a, b);
+    }
+
+    show2('welcome');//welcome hami
+
+    // 如果一个参数都不传
+    show2()//welcome hami
+
+</script>
+</body>
+</html>

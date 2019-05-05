@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    //promise.all的用途，假设这里是三个ajax请求
+    // let p1 = Promise.resolve('aaaa');//用户信息
+    // let p2 = Promise.resolve('bbbb');//新闻信息
+    // let p3 = Promise.resolve('cccc');//其他信息
+    //
+    // Promise.all([p1, p2, p3]).then(res => {
+    //     // console.log(res);//(3) ["aaaa", "bbbb", "cccc"]
+    //     //用途
+    //     let [res1, res2, res3] = res;
+    //
+    //     console.log(res1, res2, res3);//aaaa bbbb cccc
+    // })
+
+    //如果其中一个promise是失败状态那么整个promise也会变为失败状态
+    let p1 = Promise.resolve('aaaa');//用户信息
+    let p2 = Promise.resolve('bbbb');//新闻信息
+    let p3 = Promise.reject('cccc');//其他信息
+
+    Promise.all([p1, p2, p3]).then(res => {
+        // console.log(res);//(3) ["aaaa", "bbbb", "cccc"]
+        //用途
+        let [res1, res2, res3] = res;
+
+        console.log(res1, res2, res3);//aaaa bbbb cccc
+    })//Uncaught (in promise) cccc
+</script>
+</body>
+</html>

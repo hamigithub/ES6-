@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let status = 10;
+    let promise = (a) => {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (status === 1) {
+                    resolve(a)
+                } else {
+                    reject('失败了')
+                }
+            }, 2000)
+        })
+    };
+
+    let userLogin = promise({data: '登录成功', msg: 'xxx', token: 'xsdfsdfdsf'});
+    let getUserInfo = promise({data: '获取用户信息成功', msg: 'ewrwer', token: 'xsdfsdfdsf'});
+    // let userLogin = (resolve, reject) => {
+    //     setTimeout(() => {
+    //         if (status === 1) {
+    //             resolve({data: '登录成功', msg: 'xxx', token: 'xsdfsdfdsf'})
+    //         } else {
+    //             reject('失败了');
+    //         }
+    //     }, 2000)
+    // };
+    //
+    // let getUserInfo = (resolve, reject) => {
+    //     setTimeout(() => {
+    //         if (status === 1) {
+    //             resolve({data: '获取用户信息成功', msg: 'ewrwer', token: 'xsdfsdfdsf'})
+    //         } else {
+    //             reject('失败了');
+    //         }
+    //     }, 2000)
+    // };
+
+    userLogin
+        .then(res => {
+            console.log(`用户登录成功！`);
+            console.log(res);
+            return getUserInfo;
+            console.log(111);
+        })
+        .catch(arr => {
+            console.log(arr);
+            // return getUserInfo;
+            console.log(222);
+        })
+        .then(res => {
+            console.log('获取用户信息成功！');
+            console.log(res);
+            console.log(1111)
+        })
+        .catch(arr => {
+            console.log(arr);
+            console.log(2222)
+        })
+
+</script>
+</body>
+</html>

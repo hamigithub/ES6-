@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+<ul>
+    <li>11</li>
+    <li>22</li>
+    <li>33</li>
+    <li>44</li>
+</ul>
+<script>
+    window.onload = function () {
+        let aLi = document.querySelectorAll('ul li');
+        console.log(aLi);//这里获取到的是一个伪数组类型：NodeList
+        //伪数组是没有Array原型的很多方法的，因此很多需求我们需要把它转换成一个Array类型的数组
+        //这里可以直接使用扩展运算符...来操作
+        let arr = [...aLi];
+        console.log(arr);//(4) [li, li, li, li]
+        //转换成array类型之后，就可以使用Array原型的方法了，比如下面：
+        arr.pop();
+        console.log(arr);//(3) [li, li, li]
+        arr.push('asdfasdf');
+        console.log(arr)//(4) [li, li, li, "asdfasdf"]
+    }
+</script>
+</body>
+</html>

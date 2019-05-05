@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let arr = ['apple', 'banana', 'orange'];
+    let arr2 = Object.assign([], arr);//第一个参数必须是空的，如果有item，则会按顺序被覆盖
+    arr2.push('tomato');
+    console.log(arr2);//(4) ["apple", "banana", "orange", "tomato"]
+    console.log(arr);//(3) ["apple", "banana", "orange"]
+</script>
+
+</body>
+</html>

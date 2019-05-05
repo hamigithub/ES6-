@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let json = {a: 3, b: 4};
+
+    //这样赋值不同于 let json2 = json;，使用...赋值的json2和原来的json是两个不同的引用
+    let json2 = {...json};
+
+    delete json.b;
+
+    console.log(json);//{a: 3}
+    console.log(json2)//{a: 3, b: 4}
+
+</script>
+
+</body>
+</html>

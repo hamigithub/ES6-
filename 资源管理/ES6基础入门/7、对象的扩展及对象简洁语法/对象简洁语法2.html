@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let name = 'Strive';
+    let age = 18;
+    let json = {
+        name,   // name: name,
+        age,   // age: age
+        // showA: function () {
+        //     return this.name;
+        // }
+        showA() {
+            return this.name;
+        }
+    };
+    console.log(json.showA());//Strive
+
+
+</script>
+</body>
+</html>

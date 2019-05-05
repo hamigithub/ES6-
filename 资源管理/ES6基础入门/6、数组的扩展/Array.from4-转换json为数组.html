@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    //正常的json
+    // let json = {
+    //     0: 'apple',
+    //     1: 'banana',
+    //     2: 'orange'
+    // };
+    // let arr = Array.from(json);//[]，此时返回的是一个空数组
+    // console.log(arr)
+
+    //当给json添加一个length属性时：
+    // let json = {
+    //     0: 'apple',
+    //     1: 'banana',
+    //     2: 'orange',
+    //     length: 3
+    // };
+    // let arr = Array.from(json);//(3) ["apple", "banana", "orange"]
+    // //当json中带有length属性的时候，此时from这样返回
+    // console.log(arr)
+
+
+    //当给json中的length属性值小于属性数量时：
+    let json = {
+        0: 'apple',
+        1: 'banana',
+        2: 'orange',
+        length: 4
+    };
+    let arr = Array.from(json);//(2) ["apple", "banana"]
+    //当json中带有length属性的时候，此时from这样返回
+    console.log(arr)
+</script>
+</body>
+</html>

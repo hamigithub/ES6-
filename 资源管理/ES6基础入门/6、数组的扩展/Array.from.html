@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+<ul>
+    <li>11</li>
+    <li>22</li>
+    <li>33</li>
+    <li>44</li>
+</ul>
+<script>
+    window.onload = function () {
+        let aLi = document.querySelectorAll('ul li');
+        //挑战一下硬怼的方法
+        let arr1=[].slice.call(aLi);//ES5的方法
+        console.log(arr1);//(4) [li, li, li, li]
+
+        let arrLi = Array.from(aLi);//ES6的方法
+        console.log(arrLi);//(4) [li, li, li, li]
+
+        arrLi.pop();
+        console.log(arrLi);//(3) [li, li, li]
+    }
+</script>
+</body>
+</html>

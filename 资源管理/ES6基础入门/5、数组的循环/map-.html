@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let arr = [
+        {title: 'aaaa', read: 100, hot: true},
+        {title: 'bbbb', read: 100, hot: true},
+        {title: 'cccc', read: 100, hot: true},
+        {title: 'dddd', read: 100, hot: true}
+    ];
+
+    // arr.map((item, index, arr) => {
+    //     console.log(item, index, arr);
+    // });//此处没有使用 return ，功能和 forEach 差不多
+
+    // let newArr = arr.map((item, index, arr) => {
+    //     console.log(item, index, arr);
+    // });
+    // console.log(newArr);//(4) [undefined, undefined, undefined, undefined]
+
+    let newArr = arr.map((item, index, arr) => {
+        console.log(item, index, arr);
+        return 1;
+    });
+    console.log(newArr);//(4) [1, 1, 1, 1]
+
+</script>
+</body>
+</html>

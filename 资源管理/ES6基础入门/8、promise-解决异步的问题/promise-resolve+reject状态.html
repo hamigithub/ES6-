@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    // let p1 = Promise.resolve('aaa');
+    //
+    // p1.then(res => {
+    //     console.log(res);
+    // })
+    //等价于下面这种方式
+    // let p1 = new Promise(resolve => {
+    //     resolve('aaa')
+    // });
+    // p1.then(res => {
+    //     console.log(res);
+    // })
+
+    let p2 = Promise.reject('aaaa');
+    p2.then(res => {
+        console.log(res)
+    }).catch(err => {
+        console.log(err);
+    })
+</script>
+</body>
+</html>

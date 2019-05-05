@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let arr = [1, 3, 5, 7, 9];
+    let b = arr.every((val, index, arr) => {
+        return val % 2 == 1;
+    });
+    console.log(b);
+</script>
+</body>
+</html>

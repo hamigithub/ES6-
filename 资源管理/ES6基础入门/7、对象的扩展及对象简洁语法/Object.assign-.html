@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    // let json = {a: 1};
+    // let json2 = {b: 2};
+    // let json3 = {c: 3};
+    // //如果我们需要整合这三个数据，ES5中是使用for循环
+    // Object.assign(json, json2, json3);
+    // console.log(json);//{a: 1, b: 2, c: 3}
+    // let bb = Object.assign({}, json, json2, json3);
+    // console.log(bb);//{a: 1, b: 2, c: 3}
+
+
+    //如果对象之间存在相同的属性,则后面的属性覆盖前面的属性
+    let json = {a: 1};
+    let json2 = {b: 2, a: 2};
+    let json3 = {c: 3};
+    let bb = Object.assign({}, json, json2, json3);
+    console.log(bb);//{a: 2, b: 2, c: 3}
+</script>
+
+</body>
+</html>

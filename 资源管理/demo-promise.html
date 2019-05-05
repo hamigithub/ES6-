@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    let resolve = (a) => {
+        console.log(a);
+    };
+    let reject = (a) => {
+        console.log(a)
+    };
+
+    let test = () => {
+        let timeOut = Math.random() * 20;
+        console.log('set timeout to: ' + timeOut + ' seconds.');
+        setTimeout(function () {
+            if (timeOut < 1) {
+                console.log('call resolve()...');
+                resolve('200 OK');
+            } else {
+                console.log('call reject()...');
+                reject('失败');
+            }
+        }, 1000);
+    };
+
+    test()
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let arr = ['apple', 'banana', 'orange', 'tomato'];
+
+    arr.forEach((val, index, arr) => {
+        console.log(val, index);
+    });
+
+    arr.forEach((val, index, arr) => {
+        console.log(this, val, index);
+    }, 123);//使用箭头函数后，第二个参数就会依然指向window顶层对象
+    //因为这个箭头函数是在window中定义的
+</script>
+</body>
+</html>

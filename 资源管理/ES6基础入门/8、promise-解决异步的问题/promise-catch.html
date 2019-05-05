@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let a = 101;
+    let promise = new Promise(function (resolve, reject) {
+        if (a === 10) {
+            resolve('成功');
+        } else {
+            reject('失败')
+        }
+    });
+    // promise.then(success,fail);
+
+    promise.then(res => {
+        console.log(res);
+    }, err => {
+        console.log(err)
+    });
+
+    promise.catch(err => {//reject,发生错误，别名
+        console.log(err);
+    })
+
+</script>
+</body>
+</html>

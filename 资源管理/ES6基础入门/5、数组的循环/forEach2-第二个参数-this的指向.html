@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let arr = ['apple', 'banana', 'orange', 'tomato'];
+    // for (let i = 0; i < arr.length; i++) {
+    //     console.log(arr[i]);
+    // }
+
+    // arr.forEach(function (val, index, arr) {
+    //     console.log(this,val, index, arr);
+    // })//此时的this指向顶层对象
+
+    //添加第二个参数后：
+    // arr.forEach(function (val, index, arr) {
+    //     console.log(this, val, index, arr);
+    // }, document);//此时的this指向#document对象
+
+    arr.forEach(function (val, index, arr) {
+        console.log(this, val, index, arr);
+    }.bind(document))//#document，也可以通过bind方法规定this的指向
+    //第二个参数使用情景是很低的。
+</script>
+</body>
+</html>

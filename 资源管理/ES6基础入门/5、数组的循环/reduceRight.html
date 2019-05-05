@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6 学习demo</title>
+</head>
+<body>
+
+<script>
+    let arr = [2, 2, 3];
+
+    let b = arr.reduceRight((prev, cur, index, arr) => {
+        return prev ** cur;
+    });
+    console.log(b);//81
+</script>
+</body>
+</html>

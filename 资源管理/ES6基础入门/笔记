@@ -464,8 +464,132 @@ promise：承诺，许诺
 模块化：
     JS 不支持模块化
             比如 ruby require
+                 Python import
 
+    在ES6之前，社区制定了一套模块规范
+            Commonjs    主要服务端 nodeJS require('http')
+            AMD         requireJS，curlJS
+            CMD         seaJS
 
+    ES6出来之后，统一服务端和客户端的模块规范
+            import{xx} ddd
 
+            Math.pow()
+            Math.abs()
 
+            日后可能会发展成这样：import {pow,abs} from 'Math'
+    --------------------------------------------------------------
+    模块化：
+        注意：需要放到服务器环境运行，本来环境需要从localhost:xxx端口进入，webstorm自带端口环境模拟
+        a):如何去定义模块？
+            export
+            export const a = 1;
+            export{
+                a as aaa
+                b as banana
+            }
+        b):如何去使用模块？
+            import
+            import './modules/1.js'
+            import { a as aaa,banana as b,tomato as t } from "./modules/2.js"
+            import * as modTwo from "./modules/2.js";
+        使用模块：
+            <script type="module"></script>
 
+        import:
+            a): import 可以是相对路径，也可以是绝对路径
+            b)：import 模块只会引入一次，无论你导入多少次
+            c)：import './modules/1.js'；如果这样用，相当于引入文件,没有其他作用
+            d):有提升效果，import会自动提升到顶部，首先执行。
+            e):导出去模块内容，如果里面有定时器更改，外面也会改动，不像Common规范缓存
+
+        import() 类似 node 里面 require ，可以动态引入，默认情况
+                 默认 import 语法不能写到 if 之类里面
+                 返回值，是个promise对象
+                        import('./modules/1.js').then(res => {
+                             console.log(res.a+res.b)//27
+                        })
+
+                        优点：1.按需加载
+                              2.可以写在if中
+                              3.路径也可以是动态的
+
+                 因为返回值是个promise对象，所以可以结合promise.all()来动态引入
+                    Promise.all([
+                             import('./modules/1.js'),
+                             import('./modules/2.js')
+                         ]).then(([mod1, mod2]) => {
+                             console.log(mod1);
+                             console.log(mod2);
+                         })
+                 =================================================================
+                 ES2017 新增了 async await
+
+                    async function main() {
+                             const mod1 = await import('./modules/1.js');
+                             const mod2 = await import('./modules/2.js');
+
+                             console.log(mod1, mod2);
+
+                             const [m1, m2] = await Promise.all([
+                                 import('./modules/1.js'),
+                                 import('./modules/2.js')
+                             ]);
+
+                             console.log(m1, m2);
+                         }
+        ============================
+        'use strict'  ES6 默认就是严格模式，这将会是以后的趋势
+
+======================================================================================
+
+程序中的类
+ES6
+面向对象，类
+          属性
+          方法
+使用函数模拟
+人：
+    属性：name
+    展示名字：showName
+
+    Person.prototype.showName()
+
+ES5中：
+    function Person(name){
+        this,name=name;
+    }
+    Person.prototype.showName=function(){}
+ES6中变形：
+    class Person{
+        constructor(name){
+            this.name = name
+        }
+        showName(){
+
+        }
+    }
+  ---------------------
+  const Person = class {} //不建议这种写法
+  ---------------------
+  let a = 'hami';
+  let b = 'method';
+
+  class Person{
+        [a+b](){
+
+        }
+  }
+  ----------------------
+  json 对象同样可以使用变量为属性命名
+
+  let aaa = 'json'
+  let bbb = 'method'
+  let json = {
+        [aaa+bbb]:"ES6学习笔记"
+  }
+  -----------------------
+
+class 注意的地方：
+    1、ES6 里面，class 没有提升功能，在ES5，用函数模拟可以，默认函数提升
+    2、this，

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // Person.prototype.showName = function () {
+    //     return `名字为：${this.name}`;
+    // };
+    // Person.prototype.showAge = function () {
+    //     return `年龄为：${this.age}`;
+    // };
+    Object.assign(Person.prototype, {
+        showName() {
+            return `名字为：${this.name}`;
+        },
+        showAge() {
+            return `年龄为：${this.age}`;
+        }
+    });
+
+    let p1 = new Person('hami', 18);
+    console.log(p1.showName());
+    console.log(p1.showAge());
+
+
+</script>
+</body>
+</html>

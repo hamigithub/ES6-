@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //class 没有提升的效果，必须先定义后使用
+    let p1 = new Person();
+    console.log(p1);
+
+    class Person {
+        constructor() {
+            this.name = 'aaa';
+        }
+    }
+
+</script>
+</body>
+</html>

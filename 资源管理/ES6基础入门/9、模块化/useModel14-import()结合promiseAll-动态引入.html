@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="module">
+
+        Promise.all([
+            import('./modules/1.js'),
+            import('./modules/2.js')
+        ]).then(([mod1, mod2]) => {
+            console.log(mod1);
+            console.log(mod2);
+        })
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

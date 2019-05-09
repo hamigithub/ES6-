@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="module">
+        let sign = 1;
+
+        function config() {
+            switch (sign) {
+                case 1:
+                    return './modules/xxxx';
+                    break;
+            }
+        }
+
+        import('https://code.jquery.com/jquery-3.4.1.slim.min.js').then(res => {
+            $(function () {
+                $('body').css({
+                    background: "red"
+                })
+            })
+        })
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

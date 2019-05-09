@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let aaa = 'hami';
+    let bbb = 'method';
+
+    class Person {
+        constructor(name, age) {//构造方法(函数),调用 new 的时候，自动执行，不管有没有显式写入
+            // console.log(`构造函数执行：${name},${age}`)
+            this.name = name;
+            this.age = age;
+        }
+
+        //此处不需要加逗号，这是class内的作用域
+        //class的方法将会绑定到实例的类名的prototype中
+        showName() {
+            return `名字为：${this.name}`
+        }
+
+        showAge() {
+            return `年龄为：${this.age}`
+        }
+
+        [aaa+bbb]() {
+            return '随便了...'
+        }
+    }
+
+    //官方的说法：名字也可以用表达式
+
+    let p1 = new Person('hami', 18);
+    // console.log(p1.hami());//随便了
+    // console.log(p1[aaa]());//随便了
+
+    console.log(p1.hamimethod());//随便了...
+    console.log(p1[aaa+bbb]())//随便了
+
+</script>
+</body>
+</html>

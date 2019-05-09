@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="module">
+        import {a, b} from './modules/6.js'
+
+        console.log(a);//12
+
+        setTimeout(() => {
+            console.log(a);//11111
+        }, 3000)
+    </script>
+</head>
+<body>
+
+</body>
+</html>

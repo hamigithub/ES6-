@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Person(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    Person.prototype.showName = function () {
+        return `名字为：${this.name}`;
+    };
+
+    let p1 = new Person('hami', 18);
+    console.log(p1.showName());
+</script>
+</body>
+</html>

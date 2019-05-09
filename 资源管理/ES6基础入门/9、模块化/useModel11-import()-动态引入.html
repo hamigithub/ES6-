@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="module">
+        let a = 12;
+        //以下的语法是错误的，默认的 import 语法，不能写在if之类里面
+        // if (a === 12){
+        //     import {a} from './modules/1.js';
+        // }else {
+        //     import {a} from './modules/1.js';
+        // }
+
+        import('./modules/1.js').then(res => {
+            console.log(res.a+res.b)//27
+        })
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

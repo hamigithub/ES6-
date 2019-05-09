@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="module">
+        function config(sign) {
+            switch (sign) {
+                case 1:
+                    return './modules/1.js';
+                    break;
+                case 2:
+                    return './modules/2.js';
+                    break;
+            }
+        }
+
+        import(config(1)).then(res => {
+            $(function () {
+                $('body').css({
+                    background: "red"
+                })
+            })
+        })
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

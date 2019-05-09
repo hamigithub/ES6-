@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //用class封装东西的时候会用到静态方法 static
+
+    class Person {
+        constructor() {
+
+        }
+
+        showName() {
+            return `这是showName方法`
+        }
+
+        static aaa() {
+            return `这是aaa静态方法`
+        }
+    }
+
+    let p1 = new Person();
+    console.log(p1.showName());
+    console.log(Person.aaa());
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //此处展示 class作死 强改this指向
+    class Person {
+        constructor() {
+            this.name = 'hami'
+        }
+
+        showName() {
+            console.log(this);
+            return `名字为：${this.name}`
+        }
+    }
+
+    let p1 = new Person();
+
+    //解构函数
+    let {showName} = p1;
+
+    console.log(showName());
+</script>
+</body>
+</html>

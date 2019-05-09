@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sym1 = Symbol('Hami');
+    let json = {
+        a: 'apple',
+        b: 'banana',
+        [sym1]: 'aaa'
+    };
+    console.log(json['a']);//apple
+    console.log(json[sym1]);//aaa
+</script>
+</body>
+</html>

@@ -592,4 +592,137 @@ ES6中变形：
 
 class 注意的地方：
     1、ES6 里面，class 没有提升功能，在ES5，用函数模拟可以，默认函数提升
-    2、this，
+    2、ES6里面的this 比之前轻松多了
+
+    矫正this的方法：
+                    1、fn.call(this指向谁,args1,args2...)
+                    2、fn.apply(this指向谁，[args1,args2...])
+                    3.fn.bind()
+---------------------------------------------------------------------
+class 里面取值函数(getter),存值函数(setter)
+PS：不常用，除非封装框架和东西给别人用
+---------------------------------------------------------------------
+静态方法：说白了，就是类身上的方法
+static aaa(){}
+父类.aaa();
+---------------------------------------------------------------------
+
+父类
+子类
+---------------------------------------------------------------------
+继承
+
+    ES6之前：(详见HTML class11-类的继承-ES5)
+
+    Person
+    Student
+            现在：extends
+                class Student extends Person {
+
+                }
+-----------------------------------------------------------------------
+到这里，ES6的class就差不多了，下面demo一下 实际应用需求
+
+- 拖拽 -
+
+
+=============================================================================
+
+数据类型：
+        基本数据类型：number、string、Boolean、undefined、null
+        复杂数据类型：object（object、function、array）
+
+        Symbol 用 typeof 检测出来的数据类型是：symbol
+
+        new Number(12)
+        new String()
+        new Array()
+
+symbol 使用情况一般，nodeJS底层就会经常用
+
+定义：
+       let sym1 = Symbol('aaa');
+
+       注意：
+            1、Symbol() 不能 new
+            2、Symbol 返回的是一个唯一值
+                    坊间传说：做一个key，定义一些唯一或者私有一些东西
+            3、symbol 是一个单独的数据类型，就叫 symbol，属于基本类型
+            4、如果symbol作为json的key，用for in 循环，会出不来，因为symbol是私有的，并不是bug
+
+json ->循环遍历里面的属性 for in
+
+------------------------------------------------------
+箭头函数：
+        ()=>{}
+
+generator函数
+        生成器
+
+        这个东西的诞生，是为了解决异步的问题，深度嵌套的问题，也就是地狱回调
+        类似promise
+
+        语法：
+                function* gen() {//中间的*号可以有空格或者没有都行
+                    yield `welcome`;
+                    yield `to`;
+                    return `the world!`
+                }
+        调用：
+            let g1=gen();
+            g1.next();//{value: "welcome", done: false}
+            g1.next();//{value: "to", done: false}
+            g1.next();//{value: "the world!", done: true}
+
+        上述调用，手动调用，麻烦
+
+        说白了，这个 generator 是一个迭代器，只要是迭代器的话，就可以用循环输出
+        普通的循环是不行的，for in 也不行，可以使用 for of 来循环迭代器
+        所谓的迭代器，就是可遍历的东西，像array、json、对象、等都是可以遍历的东西
+for...of...循环迭代器
+            自动遍历 generator
+
+            注意:return 的东西，它不会遍历，也就是不会执行return 的语句
+
+    generator 不仅可以配合 for...of...
+
+    还可以
+
+    1、解构赋值：
+                let [a, b, c] = gen();
+    2、扩展运算符
+
+                '...'
+                console.log(...gen())//welcome to earth!
+    3、Array.from()
+                console.log(Array.from(gen()));//(3) ["welcome", "to", "earth!"]
+
+    generator 配合 axios 数据请求;
+
+        要玩 axios 得先有这个库，就是说，先去下载这个库的代码，并且引入；
+
+    -------------------------------------------------
+    异步：不连续，上一个操作没有执行完，下一个操作照样开始
+    同步：连续执行，上一个操作没有执行完，下一个没法开始
+
+    关于异步：解决方案：
+            a):回调函数
+            b):事件监听
+            c):发布/订阅
+            d):promise对象
+    --------------------------------------------------
+    ES2017 规定了 async
+
+
+
+
+
+
+
+
+
+
+
+
+
+

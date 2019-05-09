@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //class新增的存取值函数，getter setter
+    //不封装框架，不封装东西给别人用，是基本不会用这两个东西的
+    class Person {
+        constructor() {
+
+        }
+
+        get aaa() {
+            return `获取到aaa的属性`
+        }
+
+        set aaa(val) {
+            console.log(`设置aaa属性，值为：${val}`);
+        }
+    }
+
+    let p1 = new Person();
+
+    p1.aaa = '123';
+    console.log(p1.aaa);
+</script>
+</body>
+</html>

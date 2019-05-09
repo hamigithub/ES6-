@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    //https://api.github.com/users/mojombo
+    function* gen() {
+        let val = yield `mojombo`;
+        yield axios.get(`https://api.github.com/users/${val}`);
+
+    }
+
+    let g1 = gen();
+
+    let username = g1.next().value;
+
+    g1.next(username).value.then(res => {
+        console.log(res.data);
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function* gen() {
+        yield `welcome`;
+        yield `to`;
+        return `the world!`
+    }
+
+    let g1 = gen();
+    for (let val of g1) {
+        console.log(val);
+    }//welcome to，return 后面的语句不执行
+</script>
+</body>
+</html>

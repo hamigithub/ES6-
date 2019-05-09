@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //父类
+    function Person(name) {
+        this.name = name;
+    }
+
+    Person.prototype.showName = function () {
+        return `名字是：${this.name}`
+    };
+
+    //子类
+    function Student(name, skill) {
+        //使用call方法继承，但是这里只能继承person的构造属性，prototype里的方法不能被继承
+        Person.call(this, name);
+        this.skill = skill;
+    }
+
+    //调用
+    // let stu1 = new Student('hami', '逃学');
+    // console.log(stu1.name);//hami，属性时被继承了
+    // console.log(stu1.showName());//stu1.showName is not a function,Person中prototype的方法却没有继承过来
+
+    //继承原型链的方法还需要这一步
+    Student.prototype = new Person();
+    let stu1 = new Student('hami', '逃学');
+    console.log(stu1.name);//hami，属性时被继承了
+    console.log(stu1.showName());//此时成功，名字是：hami
+
+</script>
+</body>
+</html>

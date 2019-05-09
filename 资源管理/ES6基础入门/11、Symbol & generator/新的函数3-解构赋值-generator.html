@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function* gen() {
+        yield `welcome`;
+        yield `to`;
+        yield `earth!`;
+        return `the world!`
+    }
+
+    // let [a, b,c] = gen();
+    // console.log(a, b, c);//welcome to earth!
+
+    let [a, ...b] = gen();
+
+    console.log(a, b)//welcome (2) ["to", "earth!"]
+
+</script>
+</body>
+</html>

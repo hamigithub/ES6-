@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sym1 = Symbol('Hami');
+    let json = {
+        a: 'apple',
+        b: 'banana',
+        [sym1]: 'aaa'
+    };
+    for (let item in json) {
+        console.log(item);//a b，当用for in 遍历的时候，symbol会不见
+    }
+</script>
+</body>
+</html>

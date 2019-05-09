@@ -13,59 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ES6基础入门/笔记">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="594" column="11" selection-start-line="594" selection-start-column="11" selection-end-line="594" selection-end-column="11" />
+            <state relative-caret-position="311">
+              <caret line="715" lean-forward="true" selection-start-line="715" selection-end-line="715" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-FP-OOP.html">
+        <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数4-generator-配合axios-实现数据请求.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo-breakpoints.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class7-class注意点.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class5-class表达式.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class6-属性-函数-json的名字可以使用变量.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="230">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -83,25 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ES6基础入门/6、数组的扩展/arr.fill-填充.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/6、数组的扩展/arr.incldes-.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/对象简洁语法.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/对象简洁语法2.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/对象简洁语法3.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.is.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.is2.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.is3.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.assign-.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.assign2-.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.keys-.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/对象的扩展运算符.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/对象的扩展运算符2.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/promise-解决异步的问题/promise-race-打包promise.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/promise-解决异步的问题/promise-模拟需求demo.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/9、模块化/models/1.js" />
-        <option value="$PROJECT_DIR$/ES6基础入门/9、模块化/useModel.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/9、模块化/useModel-import jquery.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/9、模块化/useModel3.html" />
         <option value="$PROJECT_DIR$/ES6基础入门/9、模块化/modules/2.js" />
         <option value="$PROJECT_DIR$/ES6基础入门/9、模块化/useModel4.html" />
         <option value="$PROJECT_DIR$/ES6基础入门/9、模块化/useModel5.html" />
@@ -131,17 +73,36 @@
         <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class5-class表达式.html" />
         <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class6-.html" />
         <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class7-class注意点.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/笔记" />
         <option value="$PROJECT_DIR$/demo-FP-OOP.html" />
         <option value="$PROJECT_DIR$/demo-breakpoints.js" />
+        <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class8-class作死造this.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class8-class作死造this后纠正.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class9-class-getter-setter.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class10-class身上的方法-静态方法.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class11-类的继承-ES5.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class11-类的继承-ES6-extends.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class12-类的继承-ES6-extends-子类新增构造属性与方法.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class12-类的继承-ES6-extends-子类重写父类的方法.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/10、类class和继承/class13-class-拖拽.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/symbol.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/symbol-作为json的key.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/symbol-for in 遍历json.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数-generator.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数2-generator.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数3-for...of...循环generator.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数3-解构赋值-generator.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数3-扩展运算符-generator.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数3-Array.from()-generator.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数4-generator-配合axios-实现数据请求.html" />
+        <option value="$PROJECT_DIR$/ES6基础入门/笔记" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="398" />
-    <option name="y" value="126" />
-    <option name="width" value="1078" />
-    <option name="height" value="887" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="253" />
+    <option name="y" value="98" />
+    <option name="width" value="1173" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -164,7 +125,7 @@
               <item name="资源管理" type="b2602c69:ProjectViewProjectNode" />
               <item name="资源管理" type="462c0819:PsiDirectoryNode" />
               <item name="ES6基础入门" type="462c0819:PsiDirectoryNode" />
-              <item name="10、类class和继承" type="462c0819:PsiDirectoryNode" />
+              <item name="11、Symbol &amp; generator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,17 +142,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\desktop\资源管理\ES6基础入门\11、Symbol &amp; generator" />
+      <recent name="E:\desktop\资源管理\ES6基础入门\10、类class和继承" />
+      <recent name="E:\desktop\资源管理" />
+      <recent name="E:\desktop\资源管理\ES6基础入门\9、模块化" />
+      <recent name="E:\desktop\资源管理\ES6基础入门\9、模块化\modules" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\desktop\资源管理\ES6基础入门\字符串的扩展与新增方法" />
       <recent name="E:\desktop\资源管理\ES6基础入门\解构赋值" />
       <recent name="E:\desktop\资源管理\ES6基础入门\变量声明 let 和 const" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\desktop\资源管理" />
-      <recent name="E:\desktop\资源管理\ES6基础入门\10、类class和继承" />
-      <recent name="E:\desktop\资源管理\ES6基础入门\9、模块化" />
-      <recent name="E:\desktop\资源管理\ES6基础入门\9、模块化\modules" />
-      <recent name="E:\desktop\资源管理\ES6基础入门\7、对象的扩展及对象简洁语法" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,17 +186,18 @@
       <workItem from="1557190731630" duration="14905000" />
       <workItem from="1557275987119" duration="3000" />
       <workItem from="1557276012479" duration="9437000" />
+      <workItem from="1557399911886" duration="17141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132490000" />
+    <option name="totallyTimeSpent" value="149631000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="398" y="126" width="982" height="887" extended-state="1" />
+    <frame x="253" y="98" width="1173" height="915" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5148305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24317181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -268,140 +230,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/对象简洁语法2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/对象简洁语法3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.is.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.is2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.is3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.assign-.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.assign2-.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/对象的扩展运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/Object.keys-.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/7、对象的扩展及对象简洁语法/对象的扩展运算符2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/8、promise-解决异步的问题/promise-new实例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/8、promise-解决异步的问题/promise-then.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/8、promise-解决异步的问题/promise-catch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/8、promise-解决异步的问题/promise-链式写法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/8、promise-解决异步的问题/promise-resolve+reject状态.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/8、promise-解决异步的问题/promise-all-打包promise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/8、promise-解决异步的问题/promise-race-打包promise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/9、模块化/models/1.js" />
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/9、模块化/useModel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/9、模块化/useModel4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ES6基础入门/9、模块化/useModel3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -581,17 +409,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/笔记">
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class6-属性-函数-json的名字可以使用变量.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="594" column="11" selection-start-line="594" selection-start-column="11" selection-end-line="594" selection-end-column="11" />
+        <state relative-caret-position="891">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class7-class注意点.html">
+    <entry file="file://$PROJECT_DIR$/demo-breakpoints.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="557">
+          <caret line="108" column="11" lean-forward="true" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-FP-OOP.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -602,27 +440,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class6-属性-函数-json的名字可以使用变量.html">
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class8-class作死造this.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="476">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-FP-OOP.html">
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class9-class-getter-setter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="405">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-breakpoints.js">
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class10-class身上的方法-静态方法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class11-类的继承-ES5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class11-类的继承-ES6-extends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class12-类的继承-ES6-extends-子类重写父类的方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class12-类的继承-ES6-extends-子类新增构造属性与方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class8-class作死造this后纠正.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class7-class注意点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/10、类class和继承/class13-class-拖拽.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1745">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的基本数据类型-symbol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/symbol-作为json的key.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/symbol-for in 遍历json.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的基本数据类型2-symbol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数-generator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数2-generator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="18" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数3-for...of...循环generator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数3-扩展运算符-generator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数3-Array.from()-generator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数3-解构赋值-generator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数4-generator-配合axios-实现数据请求.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="715" lean-forward="true" selection-start-line="715" selection-end-line="715" />
         </state>
       </provider>
     </entry>

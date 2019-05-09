@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //父类
+    class Person {
+        constructor(name) {
+            this.name = name;
+        }
+
+        showName() {
+            return `它的名字为：${this.name}`
+        }
+    }
+
+    //子类
+    class Student extends Person {
+        constructor(name, skill) {
+            super(name);
+            this.skill = skill;
+        }
+
+        showSkill() {
+            return `哥们儿的技能为：${this.skill}`;
+        }
+    }
+
+    //调用
+    let p1 = new Student('hami', '逃学');
+    console.log(p1.skill);
+    console.log(p1.showSkill());
+
+</script>
+</body>
+</html>

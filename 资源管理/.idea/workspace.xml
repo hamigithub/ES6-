@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ES6基础入门/笔记">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="715" lean-forward="true" selection-start-line="715" selection-end-line="715" />
+            <state relative-caret-position="120">
+              <caret line="715" selection-start-line="715" selection-end-line="715" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数4-generator-配合axios-实现数据请求.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="-322">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ES6基础入门/8、promise-解决异步的问题/promise-模拟需求demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="66" column="9" lean-forward="true" selection-start-line="65" selection-end-line="66" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -93,16 +102,16 @@
         <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数3-解构赋值-generator.html" />
         <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数3-扩展运算符-generator.html" />
         <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数3-Array.from()-generator.html" />
-        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数4-generator-配合axios-实现数据请求.html" />
         <option value="$PROJECT_DIR$/ES6基础入门/笔记" />
+        <option value="$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数4-generator-配合axios-实现数据请求.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="253" />
-    <option name="y" value="98" />
+    <option name="y" value="120" />
     <option name="width" value="1173" />
-    <option name="height" value="915" />
+    <option name="height" value="893" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -187,15 +196,15 @@
       <workItem from="1557275987119" duration="3000" />
       <workItem from="1557276012479" duration="9437000" />
       <workItem from="1557399911886" duration="17141000" />
+      <workItem from="1557456190168" duration="3405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149631000" />
+    <option name="totallyTimeSpent" value="153036000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="253" y="98" width="1173" height="915" extended-state="0" />
-    <editor active="true" />
+    <frame x="253" y="120" width="1173" height="893" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24317181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -269,13 +278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/8、promise-解决异步的问题/promise-模拟需求demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -531,13 +533,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的基本数据类型2-symbol.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的基本数据类型2-symbol.html" />
     <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数-generator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -580,17 +576,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数4-generator-配合axios-实现数据请求.html">
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/笔记">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="120">
+          <caret line="715" selection-start-line="715" selection-end-line="715" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6基础入门/笔记">
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/11、Symbol &amp; generator/新的函数4-generator-配合axios-实现数据请求.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="715" lean-forward="true" selection-start-line="715" selection-end-line="715" />
+        <state relative-caret-position="-322">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6基础入门/8、promise-解决异步的问题/promise-模拟需求demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="66" column="9" lean-forward="true" selection-start-line="65" selection-end-line="66" selection-end-column="9" />
         </state>
       </provider>
     </entry>

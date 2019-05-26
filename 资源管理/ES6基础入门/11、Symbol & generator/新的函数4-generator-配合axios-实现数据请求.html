@@ -8,19 +8,34 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
     //https://api.github.com/users/mojombo
-    function* gen() {
-        let val = yield `mojombo`;
-        yield axios.get(`https://api.github.com/users/${val}`);
+    // function* gen() {
+    //     let val = yield `mojombo`;
+    //     yield axios.get(`https://api.github.com/users/${val}`);
+    //
+    // }
+    //
+    // let g1 = gen();
+    //
+    // let username = g1.next().value;
+    //
+    // g1.next(username).value.then(res => {
+    //     console.log(res.data);
+    // })
 
+
+    function f() {
+        var a = 12;
+
+        function f1() {
+            return a;
+        }
+
+        return f1();
     }
 
-    let g1 = gen();
-
-    let username = g1.next().value;
-
-    g1.next(username).value.then(res => {
-        console.log(res.data);
-    })
+    f();//12
+    var b = f();
+    console.log(b);//12
 </script>
 </body>
 </html>
